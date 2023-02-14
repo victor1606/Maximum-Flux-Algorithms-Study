@@ -1,5 +1,4 @@
-Comparison between 3 maximum flux algorithms: Ford-Fulkerson, Push-Relabel
-(Relabel-to-front), Malhotra-Kumar-Maheshwari
+Comparison between 3 maximum flux algorithms: Ford-Fulkerson, Push-Relabel(Relabel-to-front), Malhotra-Kumar-Maheshwari
 
 Calugaritoiu Ion-Victor
 
@@ -20,14 +19,11 @@ Continutul arhivei:
 
 	- maxflow.h: header care are definitia functiei "maxflow";
 
-	- test.cpp: apeleaza algoritmii cu fisierul de intrare test.in si
-printeaza rezultatul in fisierul test.out;
+	- test.cpp: apeleaza algoritmii cu fisierul de intrare test.in si printeaza rezultatul in fisierul test.out;
 
 	- Makefile realizat conform indicatiilor din enunt;
 
-	- directoarele "in" si "out" ce contin fisierele de intrare si cele pentru
-verificarea testelor, generate utilizand script-ul "test_gen.sh", prezent in
-directorul test-generator;
+	- directoarele "in" si "out" ce contin fisierele de intrare si cele pentru verificarea testelor, generate utilizand script-ul "test_gen.sh", prezent in directorul test-generator;
 
 	- test-generator: contine script-ul utilizat pentru a genera testele:
 		- test_gen.sh: apeleaza la randul sau urmatoarele script-uri:
